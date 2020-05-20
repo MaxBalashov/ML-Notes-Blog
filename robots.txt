@@ -1,1 +1,1 @@
-Sitemap: https://maxbalashov.github.io/ml-notes-blog/sitemap.xml
+Sitemap: https://maxbalashov.github.io/ml-notes/sitemap.xml
