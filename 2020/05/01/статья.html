@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Статья | ML Notes</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Статья" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="References" />
+<meta property="og:description" content="References" />
+<link rel="canonical" href="https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html" />
+<meta property="og:url" content="https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html" />
+<meta property="og:site_name" content="ML Notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-01T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"References","@type":"BlogPosting","headline":"Статья","dateModified":"2020-05-01T00:00:00-05:00","datePublished":"2020-05-01T00:00:00-05:00","url":"https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/ml-notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://maxbalashov.github.io/ml-notes/feed.xml" title="ML Notes" /><link rel="shortcut icon" type="image/x-icon" href="/ml-notes/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Статья | ML Notes</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Статья" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="References" />
+<meta property="og:description" content="References" />
+<link rel="canonical" href="https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html" />
+<meta property="og:url" content="https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html" />
+<meta property="og:site_name" content="ML Notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-01T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"References","@type":"BlogPosting","headline":"Статья","dateModified":"2020-05-01T00:00:00-05:00","datePublished":"2020-05-01T00:00:00-05:00","url":"https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://maxbalashov.github.io/ml-notes/feed.xml" title="ML Notes" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/ml-notes/">ML Notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/ml-notes/about/">About Me</a><a class="page-link" href="/ml-notes/search/">Search</a><a class="page-link" href="/ml-notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Статья</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-05-01T00:00:00-05:00" itemprop="datePublished">
+        May 1, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><strong>References</strong></p>
+
+<p>Aviv Y, Pazgal A (2002). ‘Pricing of short life-cycle products through active learning’. <em>Under revision for Management Science</em>.</p>
+
+<p>Bellman R (1957). ‘A Markovian Decision Process’. <em>Journal of Mathematics and Mechanics</em>, 6.</p>
+
+<p>Carroll WJ, Grimes RC (1995). ‘Evolutionary change in product management: Experiences in the car rental industry’. <em>Interfaces</em>, t. 25, no. 5, pp. 84-104.</p>
+
+<p>Carvalho AX, Puterman ML (2003). ‘Dynamic pricing and learning over short time horizons’. Sander School of Business, UBC, Working Paper.</p>
+
+<p>Chen L, Mislove A, Wilson C (2016). ‘An empirical analysis of algorithmic pricing on amazon marketplace’. <em>Proceedings of the 25th international conference on world wide web</em>, International World Wide Web Conferences Steering Committee, pp. 1339-1349.</p>
+
+<p>Chinthalapati VLR, Yadati N, Karumanchi R (2006). ‘Learning dynamic prices in multi-seller electronic retail markets with price-sensitive customers, stochastic demands, and inventory replenishments’. <em>IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)</em>, t. 36, no. 1, pp. 92-106.</p>
+
+<p>Ciancimino A et al (1999). ‘A mathematical programming approach for the solution of the railway yield management problem’. <em>Transportation Science</em>, t. 33, no. 2, pp. 168-181.</p>
+
+<p>Deksnyte I, Lydeka Z (2012). ‘Dynamic pricing and its forming factors’. <em>International Journal of Business and Social Science</em>, t. 3, no. 23.</p>
+
+<p>Didur I (2018). ‘Dynamic pricing algorithms on Uber and Lyft’. <a href="https://datarootlabs.com/uber-lift-gett-surge-pricing-algorithms/"><span class="underline">https://datarootlabs.com/uber-lift-gett-surge-pricing-algorithms/</span></a></p>
+
+<p>Dimicco JM, Maes P, Greenwald A (2003). ‘Learning curve: A simulation-based approach to dynamic pricing’. <em>Electronic Commerce Research</em>, t. 3, no. 3-4, pp. 245-276.</p>
+
+<p>Gupta M, Ravikumar K, Kumar M (2002). ‘Adaptive strategies for price markdown in a multi-unit descending price auction: A comparative study’<em>. IEEE International Conference on Systems, Man and Cybernetics</em>, t. 1, pp. 373-378.</p>
+
+<p>Hayes DK, Miller AA (2011). ‘Revenue Management for the Hospitality Industry’. Hoboken, NJ: Wiley.</p>
+
+<p>Hester T et al (2018). ‘Deep q-learning from demonstrations’. Thirty-Second AAAI Conference on Artificial Intelligence.</p>
+
+<p>Jintian W, Lei Z (2009). ‘Application of reinforcement learning in dynamic pricing algorithms’. <em>IEEE International Conference on Automation and Logistics</em>, pp. 419-423.</p>
+
+<p>Kephart JO, Hanson JE, Greenwald AR (2000). ‘Dynamic pricing by software agents’. <em>Computer Networks</em>, t. 32. no. 6, pp. 731-752.</p>
+
+<p>Lane A (2019), ‘How Dynamic Pricing Is Revolutionizing Retail, The use of analytics to set prices in real time is becoming widespread’<em>.</em> <a href="https://channels.theinnovationenterprise.com/articles/how-dynamic-pricing-is-revolutionizing-retail"><span class="underline">https://channels.theinnovationenterprise.com/articles/how-dynamic-pricing-is-revolutionizing-retail</span></a></p>
+
+<p>Larina E (2015). ‘Airbnb and HomeAway switch to dynamic pricing’. <a href="https://buyingbusinesstravel.com.ru/news/accomodation/3498-airbnb-i-homeaway-perekhodyat-na-dinamicheskoe-tsenoobrazovanie-/"><span class="underline">https://buyingbusinesstravel.com.ru/news/accomodation/3498-airbnb-i-homeaway-perekhodyat-na-dinamicheskoe-tsenoobrazovanie-/</span></a></p>
+
+<p>Lawrence RD (2003). ‘A machine-learning approach to optimal bid pricing’. <em>Computational modeling and problem solving in the networked world</em>, Springer, Boston, MA, pp. 97-118.</p>
+
+<p>Littlewood K (1972). ‘Forecasting and control of passenger bookings’. <em>Airline Group International Federation of Operational Research Societies Proceedings</em>, t. 12, pp. 95-117.</p>
+
+<p>Liu G, Wang H (2013). ‘An online sequential feed-forward network model for demand curve prediction’. <em>Journal of information &amp; computational science</em>, t. 10, no. 10, pp. 3063-3069.</p>
+
+<p>Liu J et al (2018). ‘Dynamic Pricing on E-commerce Platform with Deep Reinforcement Learning’. International Conference on Learning Representations, New Orleans, Louisiana, United States.</p>
+
+<p>Lu R, Hong SH, Zhang X (2018). ‘A dynamic pricing demand response algorithm for smart grid: reinforcement learning approach’. <em>Applied Energy</em>, t. 220, pp. 220-230.</p>
+
+<p>Mnih V et al (2015). ‘Human-level control through deep reinforcement learning’. <em>Nature</em>, t. 518, no. 7540, p. 529.</p>
+
+<p>Mullen PB et al (2006). ‘Particle swarm optimization in dynamic pricing’. <em>IEEE International Conference on Evolutionary Computation</em>, pp. 1232-1239.</p>
+
+<p>Николенко С, Кадурин А, Архангельская Е (2018). Глубокое обучение, СПб.: Питер, 480 p.</p>
+
+<p>Raju CVL, Narahari Y, Ravikumar K (2006). ‘Learning dynamic prices in electronic retail markets with customer segmentation’. <em>Annals of Operations Research</em>, t. 143, no. 1, pp. 59-75.</p>
+
+<p>Ramezani S, Bosman PAN, La Poutré H (2011). ‘<em>Adaptive strategies for dynamic pricing agents</em>’, Proceedings of the 2011 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology-Volume 02. IEEE Computer Society, pp. 323-328.</p>
+
+<p>Rothstein M (1971). ‘An airline overbooking model’. <em>Transportation Science</em>, t. 5, no. 2, pp. 180-192.</p>
+
+<p>Spedicato GA, Dutang C, Petrini L (2018). ‘Machine Learning Methods to Perform Pricing Optimization. A Comparison with Standard GLMs’. <em>Casualty actuarial society</em>, v. 12, issue 1, pp. 69-89.</p>
+
+<p>Subrahmanyan S, Shoemaker R (1996). ‘Developing optimal pricing and inventory policies for retailers who face uncertain demand’. <em>Journal of Retailing</em>, t. 72, no.1, pp. 7-30.</p>
+
+<p>Sutton RS, Barto AG (2018). ‘Reinforcement learning: An introduction’. MIT press.</p>
+
+<p>Watkins C (1989). ‘Learning from delayed rewards’. PhD Thesis, University of Cambridge, England.</p>
+
+<p>Weatherford LR, Bodily SE (1992). ‘A taxonomy and research overview of perishable-asset revenue management: Yield management, overbooking, and pricing’. <em>Operations research</em>, t. 40, no. 5, pp. 831-844.</p>
+
+<p>Xia L, Monroe KB, Cox JL (2004). ‘The price is unfair! A conceptual framework of price fairness perceptions’. <em>Journal of marketing</em>, t. 68, no. 4, pp. 1-15.</p>
+
+  </div><a class="u-url" href="/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/ml-notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/ml-notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/ml-notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/MaxBalashov" title="MaxBalashov"><svg class="svg-icon grey"><use xlink:href="/ml-notes/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

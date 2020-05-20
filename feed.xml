@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://maxbalashov.github.io/ml-notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://maxbalashov.github.io/ml-notes/" rel="alternate" type="text/html" /><updated>2020-05-20T16:29:54-05:00</updated><id>https://maxbalashov.github.io/ml-notes/feed.xml</id><title type="html">ML Notes</title><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://maxbalashov.github.io/ml-notes/jupyter/2020/02/20/test+test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://maxbalashov.github.io/ml-notes/jupyter/2020/02/20/test+test</id><content type="html" xml:base="https://maxbalashov.github.io/ml-notes/jupyter/2020/02/20/test+test.html">&lt;!--
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://maxbalashov.github.io/ml-notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://maxbalashov.github.io/ml-notes/" rel="alternate" type="text/html" /><updated>2020-05-20T16:50:48-05:00</updated><id>https://maxbalashov.github.io/ml-notes/feed.xml</id><title type="html">ML Notes</title><entry><title type="html">Статья</title><link href="https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html" rel="alternate" type="text/html" title="Статья" /><published>2020-05-01T00:00:00-05:00</published><updated>2020-05-01T00:00:00-05:00</updated><id>https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F</id><content type="html" xml:base="https://maxbalashov.github.io/ml-notes/2020/05/01/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F.html">&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Aviv Y, Pazgal A (2002). ‘Pricing of short life-cycle products through active learning’. &lt;em&gt;Under revision for Management Science&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Bellman R (1957). ‘A Markovian Decision Process’. &lt;em&gt;Journal of Mathematics and Mechanics&lt;/em&gt;, 6.&lt;/p&gt;
+
+&lt;p&gt;Carroll WJ, Grimes RC (1995). ‘Evolutionary change in product management: Experiences in the car rental industry’. &lt;em&gt;Interfaces&lt;/em&gt;, t. 25, no. 5, pp. 84-104.&lt;/p&gt;
+
+&lt;p&gt;Carvalho AX, Puterman ML (2003). ‘Dynamic pricing and learning over short time horizons’. Sander School of Business, UBC, Working Paper.&lt;/p&gt;
+
+&lt;p&gt;Chen L, Mislove A, Wilson C (2016). ‘An empirical analysis of algorithmic pricing on amazon marketplace’. &lt;em&gt;Proceedings of the 25th international conference on world wide web&lt;/em&gt;, International World Wide Web Conferences Steering Committee, pp. 1339-1349.&lt;/p&gt;
+
+&lt;p&gt;Chinthalapati VLR, Yadati N, Karumanchi R (2006). ‘Learning dynamic prices in multi-seller electronic retail markets with price-sensitive customers, stochastic demands, and inventory replenishments’. &lt;em&gt;IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)&lt;/em&gt;, t. 36, no. 1, pp. 92-106.&lt;/p&gt;
+
+&lt;p&gt;Ciancimino A et al (1999). ‘A mathematical programming approach for the solution of the railway yield management problem’. &lt;em&gt;Transportation Science&lt;/em&gt;, t. 33, no. 2, pp. 168-181.&lt;/p&gt;
+
+&lt;p&gt;Deksnyte I, Lydeka Z (2012). ‘Dynamic pricing and its forming factors’. &lt;em&gt;International Journal of Business and Social Science&lt;/em&gt;, t. 3, no. 23.&lt;/p&gt;
+
+&lt;p&gt;Didur I (2018). ‘Dynamic pricing algorithms on Uber and Lyft’. &lt;a href=&quot;https://datarootlabs.com/uber-lift-gett-surge-pricing-algorithms/&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://datarootlabs.com/uber-lift-gett-surge-pricing-algorithms/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dimicco JM, Maes P, Greenwald A (2003). ‘Learning curve: A simulation-based approach to dynamic pricing’. &lt;em&gt;Electronic Commerce Research&lt;/em&gt;, t. 3, no. 3-4, pp. 245-276.&lt;/p&gt;
+
+&lt;p&gt;Gupta M, Ravikumar K, Kumar M (2002). ‘Adaptive strategies for price markdown in a multi-unit descending price auction: A comparative study’&lt;em&gt;. IEEE International Conference on Systems, Man and Cybernetics&lt;/em&gt;, t. 1, pp. 373-378.&lt;/p&gt;
+
+&lt;p&gt;Hayes DK, Miller AA (2011). ‘Revenue Management for the Hospitality Industry’. Hoboken, NJ: Wiley.&lt;/p&gt;
+
+&lt;p&gt;Hester T et al (2018). ‘Deep q-learning from demonstrations’. Thirty-Second AAAI Conference on Artificial Intelligence.&lt;/p&gt;
+
+&lt;p&gt;Jintian W, Lei Z (2009). ‘Application of reinforcement learning in dynamic pricing algorithms’. &lt;em&gt;IEEE International Conference on Automation and Logistics&lt;/em&gt;, pp. 419-423.&lt;/p&gt;
+
+&lt;p&gt;Kephart JO, Hanson JE, Greenwald AR (2000). ‘Dynamic pricing by software agents’. &lt;em&gt;Computer Networks&lt;/em&gt;, t. 32. no. 6, pp. 731-752.&lt;/p&gt;
+
+&lt;p&gt;Lane A (2019), ‘How Dynamic Pricing Is Revolutionizing Retail, The use of analytics to set prices in real time is becoming widespread’&lt;em&gt;.&lt;/em&gt; &lt;a href=&quot;https://channels.theinnovationenterprise.com/articles/how-dynamic-pricing-is-revolutionizing-retail&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://channels.theinnovationenterprise.com/articles/how-dynamic-pricing-is-revolutionizing-retail&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Larina E (2015). ‘Airbnb and HomeAway switch to dynamic pricing’. &lt;a href=&quot;https://buyingbusinesstravel.com.ru/news/accomodation/3498-airbnb-i-homeaway-perekhodyat-na-dinamicheskoe-tsenoobrazovanie-/&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://buyingbusinesstravel.com.ru/news/accomodation/3498-airbnb-i-homeaway-perekhodyat-na-dinamicheskoe-tsenoobrazovanie-/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lawrence RD (2003). ‘A machine-learning approach to optimal bid pricing’. &lt;em&gt;Computational modeling and problem solving in the networked world&lt;/em&gt;, Springer, Boston, MA, pp. 97-118.&lt;/p&gt;
+
+&lt;p&gt;Littlewood K (1972). ‘Forecasting and control of passenger bookings’. &lt;em&gt;Airline Group International Federation of Operational Research Societies Proceedings&lt;/em&gt;, t. 12, pp. 95-117.&lt;/p&gt;
+
+&lt;p&gt;Liu G, Wang H (2013). ‘An online sequential feed-forward network model for demand curve prediction’. &lt;em&gt;Journal of information &amp;amp; computational science&lt;/em&gt;, t. 10, no. 10, pp. 3063-3069.&lt;/p&gt;
+
+&lt;p&gt;Liu J et al (2018). ‘Dynamic Pricing on E-commerce Platform with Deep Reinforcement Learning’. International Conference on Learning Representations, New Orleans, Louisiana, United States.&lt;/p&gt;
+
+&lt;p&gt;Lu R, Hong SH, Zhang X (2018). ‘A dynamic pricing demand response algorithm for smart grid: reinforcement learning approach’. &lt;em&gt;Applied Energy&lt;/em&gt;, t. 220, pp. 220-230.&lt;/p&gt;
+
+&lt;p&gt;Mnih V et al (2015). ‘Human-level control through deep reinforcement learning’. &lt;em&gt;Nature&lt;/em&gt;, t. 518, no. 7540, p. 529.&lt;/p&gt;
+
+&lt;p&gt;Mullen PB et al (2006). ‘Particle swarm optimization in dynamic pricing’. &lt;em&gt;IEEE International Conference on Evolutionary Computation&lt;/em&gt;, pp. 1232-1239.&lt;/p&gt;
+
+&lt;p&gt;Николенко С, Кадурин А, Архангельская Е (2018). Глубокое обучение, СПб.: Питер, 480 p.&lt;/p&gt;
+
+&lt;p&gt;Raju CVL, Narahari Y, Ravikumar K (2006). ‘Learning dynamic prices in electronic retail markets with customer segmentation’. &lt;em&gt;Annals of Operations Research&lt;/em&gt;, t. 143, no. 1, pp. 59-75.&lt;/p&gt;
+
+&lt;p&gt;Ramezani S, Bosman PAN, La Poutré H (2011). ‘&lt;em&gt;Adaptive strategies for dynamic pricing agents&lt;/em&gt;’, Proceedings of the 2011 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology-Volume 02. IEEE Computer Society, pp. 323-328.&lt;/p&gt;
+
+&lt;p&gt;Rothstein M (1971). ‘An airline overbooking model’. &lt;em&gt;Transportation Science&lt;/em&gt;, t. 5, no. 2, pp. 180-192.&lt;/p&gt;
+
+&lt;p&gt;Spedicato GA, Dutang C, Petrini L (2018). ‘Machine Learning Methods to Perform Pricing Optimization. A Comparison with Standard GLMs’. &lt;em&gt;Casualty actuarial society&lt;/em&gt;, v. 12, issue 1, pp. 69-89.&lt;/p&gt;
+
+&lt;p&gt;Subrahmanyan S, Shoemaker R (1996). ‘Developing optimal pricing and inventory policies for retailers who face uncertain demand’. &lt;em&gt;Journal of Retailing&lt;/em&gt;, t. 72, no.1, pp. 7-30.&lt;/p&gt;
+
+&lt;p&gt;Sutton RS, Barto AG (2018). ‘Reinforcement learning: An introduction’. MIT press.&lt;/p&gt;
+
+&lt;p&gt;Watkins C (1989). ‘Learning from delayed rewards’. PhD Thesis, University of Cambridge, England.&lt;/p&gt;
+
+&lt;p&gt;Weatherford LR, Bodily SE (1992). ‘A taxonomy and research overview of perishable-asset revenue management: Yield management, overbooking, and pricing’. &lt;em&gt;Operations research&lt;/em&gt;, t. 40, no. 5, pp. 831-844.&lt;/p&gt;
+
+&lt;p&gt;Xia L, Monroe KB, Cox JL (2004). ‘The price is unfair! A conceptual framework of price fairness perceptions’. &lt;em&gt;Journal of marketing&lt;/em&gt;, t. 68, no. 4, pp. 1-15.&lt;/p&gt;</content><author><name></name></author><summary type="html">References</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://maxbalashov.github.io/ml-notes/jupyter/2020/02/20/test+test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://maxbalashov.github.io/ml-notes/jupyter/2020/02/20/test+test</id><content type="html" xml:base="https://maxbalashov.github.io/ml-notes/jupyter/2020/02/20/test+test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
