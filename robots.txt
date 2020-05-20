@@ -1,0 +1,1 @@
+Sitemap: https://maxbalashov.github.io/blog_fastai_template/sitemap.xml
