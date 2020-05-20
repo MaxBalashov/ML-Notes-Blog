@@ -6,11 +6,7 @@
 
 https://MaxBalashov.github.io/blog_fastai_template/
 
-# My Blog
-
-
-_powered by [fastpages](https://github.com/fastai/fastpages)_
-
+# ML Notes
 
 ## What To Do Next?
 
