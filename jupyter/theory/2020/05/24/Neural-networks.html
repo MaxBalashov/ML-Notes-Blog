@@ -325,9 +325,9 @@ $$\sum_i^N{e_i^2} = \sum_i^N{(y_i - \hat{y_i})^2}$$
 <p>Поэтому модель A хуже, чем модель B.</p>
 </blockquote>
 <p>Полезное свойство модуля и возведения в квадрат числа - <strong>функции ошибки теперь ограничены снизу нулем</strong>, те нуль мы получаем в случае, если модель не ошибается и всегда верно предсказывает значение целевой функции.</p>
-<p>Напоследок, предлагаю перейти от суммарных ошибок, к усредненным по наблюдениям, т.е.:- Средняя абсолютная ошибка или <a href="https://en.wikipedia.org/wiki/Mean_absolute_error">MAE</a> (Mean absolute error):$$\frac{1}{N} \sum_i^N{\lvert y_i - \hat{y_i} \rvert}$$</p>
+<p>Напоследок, предлагаю перейти от суммарных ошибок, к усредненным по наблюдениям, т.е.:- Средняя абсолютная ошибка или MAE (<a href="https://en.wikipedia.org/wiki/Mean_absolute_error">Mean absolute error</a>):$$\frac{1}{N} \sum_i^N{\lvert y_i - \hat{y_i} \rvert}$$</p>
 <ul>
-<li>Среднеквадратичная ошибка или <a href="https://en.wikipedia.org/wiki/Mean_squared_error">MSE</a> (Mean squared error):
+<li>Среднеквадратичная ошибка или MSE (<a href="https://en.wikipedia.org/wiki/Mean_squared_error">Mean squared error</a>):
 
 $$\frac{1}{N} \sum_i^N{(y_i - \hat{y_i})^2}$$
 </li>
@@ -401,7 +401,7 @@ $$L(\theta) = \frac{1}{N} \sum_i^N{(y_i - \hat{y_i})^2}$$
 <blockquote>
 <p>Ищем такую модель, которая ошибается как можно меньше, т.е. ее ошибка стремится к минимуму.</p>
 </blockquote>
-<p>Если выразить математически:$$L(\theta) = \frac{1}{N} \sum_i^N{(y_i - \hat{y_i})^2} \rightarrow \min_{\theta}$$</p>
+<p>Если выразить математически, минимизация функции ошибки выглядит так:$$L(\theta) = \frac{1}{N} \sum_i^N{(y_i - \hat{y_i})^2} \rightarrow \min_{\theta}$$</p>
 
 </div>
 </div>

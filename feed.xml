@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://maxbalashov.github.io/ml-notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://maxbalashov.github.io/ml-notes/" rel="alternate" type="text/html" /><updated>2020-05-24T14:38:40-05:00</updated><id>https://maxbalashov.github.io/ml-notes/feed.xml</id><title type="html">ML Notes</title><entry><title type="html">Golang Notes</title><link href="https://maxbalashov.github.io/ml-notes/markdown/programming/2020/05/24/Golang-notes.html" rel="alternate" type="text/html" title="Golang Notes" /><published>2020-05-24T00:00:00-05:00</published><updated>2020-05-24T00:00:00-05:00</updated><id>https://maxbalashov.github.io/ml-notes/markdown/programming/2020/05/24/Golang-notes</id><content type="html" xml:base="https://maxbalashov.github.io/ml-notes/markdown/programming/2020/05/24/Golang-notes.html">&lt;p&gt;&lt;img src=&quot;/ml-notes/images/gopher.jpg&quot; alt=&quot;&quot; title=&quot;Gopher - a mascot of Golang&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://maxbalashov.github.io/ml-notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://maxbalashov.github.io/ml-notes/" rel="alternate" type="text/html" /><updated>2020-05-24T14:43:15-05:00</updated><id>https://maxbalashov.github.io/ml-notes/feed.xml</id><title type="html">ML Notes</title><entry><title type="html">Golang Notes</title><link href="https://maxbalashov.github.io/ml-notes/markdown/programming/2020/05/24/Golang-notes.html" rel="alternate" type="text/html" title="Golang Notes" /><published>2020-05-24T00:00:00-05:00</published><updated>2020-05-24T00:00:00-05:00</updated><id>https://maxbalashov.github.io/ml-notes/markdown/programming/2020/05/24/Golang-notes</id><content type="html" xml:base="https://maxbalashov.github.io/ml-notes/markdown/programming/2020/05/24/Golang-notes.html">&lt;p&gt;&lt;img src=&quot;/ml-notes/images/gopher.jpg&quot; alt=&quot;&quot; title=&quot;Gopher - a mascot of Golang&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;объявление-переменных&quot;&gt;Объявление переменных&lt;/h1&gt;
 
@@ -366,9 +366,9 @@ $$\sum_i^N{e_i^2} = \sum_i^N{(y_i - \hat{y_i})^2}$$
 &lt;p&gt;Поэтому модель A хуже, чем модель B.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Полезное свойство модуля и возведения в квадрат числа - &lt;strong&gt;функции ошибки теперь ограничены снизу нулем&lt;/strong&gt;, те нуль мы получаем в случае, если модель не ошибается и всегда верно предсказывает значение целевой функции.&lt;/p&gt;
-&lt;p&gt;Напоследок, предлагаю перейти от суммарных ошибок, к усредненным по наблюдениям, т.е.:- Средняя абсолютная ошибка или &lt;a href=&quot;https://en.wikipedia.org/wiki/Mean_absolute_error&quot;&gt;MAE&lt;/a&gt; (Mean absolute error):$$\frac{1}{N} \sum_i^N{\lvert y_i - \hat{y_i} \rvert}$$&lt;/p&gt;
+&lt;p&gt;Напоследок, предлагаю перейти от суммарных ошибок, к усредненным по наблюдениям, т.е.:- Средняя абсолютная ошибка или MAE (&lt;a href=&quot;https://en.wikipedia.org/wiki/Mean_absolute_error&quot;&gt;Mean absolute error&lt;/a&gt;):$$\frac{1}{N} \sum_i^N{\lvert y_i - \hat{y_i} \rvert}$$&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Среднеквадратичная ошибка или &lt;a href=&quot;https://en.wikipedia.org/wiki/Mean_squared_error&quot;&gt;MSE&lt;/a&gt; (Mean squared error):
+&lt;li&gt;Среднеквадратичная ошибка или MSE (&lt;a href=&quot;https://en.wikipedia.org/wiki/Mean_squared_error&quot;&gt;Mean squared error&lt;/a&gt;):
 
 $$\frac{1}{N} \sum_i^N{(y_i - \hat{y_i})^2}$$
 &lt;/li&gt;
@@ -432,7 +432,7 @@ $$L(\theta) = \frac{1}{N} \sum_i^N{(y_i - \hat{y_i})^2}$$
 &lt;p&gt;Повторимся, в упрощенном и интуитивном понимании, для решения задачи регрессии:&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;Ищем такую модель, которая ошибается как можно меньше, т.е. ее ошибка стремится к минимуму.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Если выразить математически:$$L(\theta) = \frac{1}{N} \sum_i^N{(y_i - \hat{y_i})^2} \rightarrow \min_{\theta}$$&lt;/p&gt;
+&lt;p&gt;Если выразить математически, минимизация функции ошибки выглядит так:$$L(\theta) = \frac{1}{N} \sum_i^N{(y_i - \hat{y_i})^2} \rightarrow \min_{\theta}$$&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
