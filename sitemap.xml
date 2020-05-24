@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://maxbalashov.github.io/ml-notes/jupyter/theory/2020/05/24/Neural-networks-notebook.html</loc>
-<lastmod>2020-05-24T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>https://maxbalashov.github.io/ml-notes/markdown/theory/2020/05/24/Neural-networks.html</loc>
+<loc>https://maxbalashov.github.io/ml-notes/jupyter/theory/2020/05/24/Neural-networks.html</loc>
 <lastmod>2020-05-24T00:00:00-05:00</lastmod>
 </url>
 <url>
