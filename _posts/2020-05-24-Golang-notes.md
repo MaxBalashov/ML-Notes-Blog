@@ -6,7 +6,7 @@ categories: [markdown, Programming]
 title: Golang Notes
 ---
 
-![gopher](../images/gopher.jpg)
+![]({{ site.baseurl }}/images/gopher.jpg "Gopher - a mascot of Golang")
 
 # Объявление переменных
 
