@@ -172,19 +172,19 @@ window.onload = wrap_img;
 
 <div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// Традиционный цикл `for`</span>
 <span class="k">for</span> <span class="n">инициализация</span><span class="p">;</span> <span class="n">условие</span><span class="p">;</span> <span class="n">последеи</span><span class="err">̆</span><span class="n">ствие</span> <span class="p">{</span>
-	<span class="c">// нуль или несколько инструкций</span>
+    <span class="c">// нуль или несколько инструкций</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
 <div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// Традиционный цикл `while`</span>
 <span class="k">for</span> <span class="n">condition</span> <span class="p">{</span>
-	<span class="c">// ...</span>
+    <span class="c">// ...</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
 <div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// Традиционный бесконечный цикл</span>
 <span class="k">for</span> <span class="p">{</span>
-	<span class="c">// ...</span>
+    <span class="c">// ...</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -193,13 +193,13 @@ window.onload = wrap_img;
 <p>Разновидность цикла <code class="highlighter-rouge">for</code> выполняет итерации для диапазона значений для типа данных наподобие <em>строки</em> или <em>среза</em>.</p>
 
 <div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">arg</span> <span class="o">:=</span> <span class="k">range</span> <span class="n">someSlice</span> <span class="p">{</span>
-	<span class="c">// ...</span>
+    <span class="c">// ...</span>
 <span class="p">}</span>
 </code></pre></div></div>
 <p>Если мы не нуждаемся в индексе, то его можно заменить на <em>пустой идентификатор</em> (blank identifier) с именем <code class="highlighter-rouge">_</code> (символ подчеркивания). Пустой идентификатор может использоваться вез­де, где синтаксис требует имя переменной, но логике программы он не нужен.</p>
 
 <div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">arg</span> <span class="o">:=</span> <span class="k">range</span> <span class="n">someSlice</span> <span class="p">{</span>
-	<span class="c">// ...</span>
+    <span class="c">// ...</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -213,13 +213,13 @@ window.onload = wrap_img;
 
 <p>(Попробуйте использовать <code class="highlighter-rouge">v</code> в последнем операторе <code class="highlighter-rouge">return</code>.)</p>
 <div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span> <span class="n">pow</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">lim</span> <span class="kt">float64</span><span class="p">)</span> <span class="kt">float64</span> <span class="p">{</span>
-	<span class="k">if</span> <span class="n">v</span> <span class="o">:=</span> <span class="n">math</span><span class="o">.</span><span class="n">Pow</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span> <span class="n">v</span> <span class="o">&lt;</span> <span class="n">lim</span> <span class="p">{</span>
-		<span class="k">return</span> <span class="n">v</span>
-	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-		<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%g &gt;= %g</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">lim</span><span class="p">)</span>
-	<span class="p">}</span>
-	<span class="c">// can't use v here, though</span>
-	<span class="k">return</span> <span class="n">lim</span>
+    <span class="k">if</span> <span class="n">v</span> <span class="o">:=</span> <span class="n">math</span><span class="o">.</span><span class="n">Pow</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span> <span class="n">v</span> <span class="o">&lt;</span> <span class="n">lim</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">v</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%g &gt;= %g</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">lim</span><span class="p">)</span>
+    <span class="p">}</span>
+    <span class="c">// can't use v here, though</span>
+    <span class="k">return</span> <span class="n">lim</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -237,17 +237,17 @@ window.onload = wrap_img;
 <span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
     <span class="c">// инициализируем внутри переменную `switch`</span>
     <span class="c">// `swichCondition` существует только в рамках данного `switch` ???</span>
-	<span class="k">switch</span> <span class="n">swichCondition</span> <span class="o">:=</span> <span class="m">2</span><span class="p">;</span> <span class="n">swichCondition</span> <span class="p">{</span>
-	<span class="k">case</span> <span class="m">1</span><span class="o">:</span>
-		<span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Case 1"</span><span class="p">)</span>
+    <span class="k">switch</span> <span class="n">swichCondition</span> <span class="o">:=</span> <span class="m">2</span><span class="p">;</span> <span class="n">swichCondition</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="m">1</span><span class="o">:</span>
+        <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Case 1"</span><span class="p">)</span>
     <span class="k">case</span> <span class="m">2</span><span class="o">:</span>
         <span class="c">// выполнит принт согласно условию `swichCondition`</span>
         <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Case 2"</span><span class="p">)</span>
         <span class="c">// продолжит проверять последующие условия из-за `fallthrough`</span>
         <span class="k">fallthrough</span>
-	<span class="k">default</span><span class="o">:</span>
-		<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"Case default"</span><span class="p">)</span>
-	<span class="p">}</span>
+    <span class="k">default</span><span class="o">:</span>
+        <span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"Case default"</span><span class="p">)</span>
+    <span class="p">}</span>
 <span class="p">}</span>
 
 </code></pre></div></div>
@@ -261,20 +261,20 @@ window.onload = wrap_img;
 <div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
 
 <span class="k">import</span> <span class="p">(</span>
-	<span class="s">"fmt"</span>
-	<span class="s">"time"</span>
+    <span class="s">"fmt"</span>
+    <span class="s">"time"</span>
 <span class="p">)</span>
 
 <span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="n">t</span> <span class="o">:=</span> <span class="n">time</span><span class="o">.</span><span class="n">Now</span><span class="p">()</span>
-	<span class="k">switch</span> <span class="p">{</span>
-	<span class="k">case</span> <span class="n">t</span><span class="o">.</span><span class="n">Hour</span><span class="p">()</span> <span class="o">&lt;</span> <span class="m">12</span><span class="o">:</span>
-		<span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Good morning!"</span><span class="p">)</span>
-	<span class="k">case</span> <span class="n">t</span><span class="o">.</span><span class="n">Hour</span><span class="p">()</span> <span class="o">&lt;</span> <span class="m">17</span><span class="o">:</span>
-		<span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Good afternoon."</span><span class="p">)</span>
-	<span class="k">default</span><span class="o">:</span>
-		<span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Good evening."</span><span class="p">)</span>
-	<span class="p">}</span>
+    <span class="n">t</span> <span class="o">:=</span> <span class="n">time</span><span class="o">.</span><span class="n">Now</span><span class="p">()</span>
+    <span class="k">switch</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="n">t</span><span class="o">.</span><span class="n">Hour</span><span class="p">()</span> <span class="o">&lt;</span> <span class="m">12</span><span class="o">:</span>
+        <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Good morning!"</span><span class="p">)</span>
+    <span class="k">case</span> <span class="n">t</span><span class="o">.</span><span class="n">Hour</span><span class="p">()</span> <span class="o">&lt;</span> <span class="m">17</span><span class="o">:</span>
+        <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Good afternoon."</span><span class="p">)</span>
+    <span class="k">default</span><span class="o">:</span>
+        <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Good evening."</span><span class="p">)</span>
+    <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -296,25 +296,25 @@ window.onload = wrap_img;
 <span class="k">import</span> <span class="s">"fmt"</span>
 
 <span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="n">s</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">7</span><span class="p">,</span> <span class="m">11</span><span class="p">,</span> <span class="m">13</span><span class="p">}</span>
-	<span class="n">printSlice</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="n">s</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">7</span><span class="p">,</span> <span class="m">11</span><span class="p">,</span> <span class="m">13</span><span class="p">}</span>
+    <span class="n">printSlice</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 
-	<span class="c">// Slice the slice to give it zero length.</span>
-	<span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="o">:</span><span class="m">0</span><span class="p">]</span>
-	<span class="n">printSlice</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="c">// Slice the slice to give it zero length.</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="o">:</span><span class="m">0</span><span class="p">]</span>
+    <span class="n">printSlice</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 
-	<span class="c">// Extend its length.</span>
-	<span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="o">:</span><span class="m">4</span><span class="p">]</span>
-	<span class="n">printSlice</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="c">// Extend its length.</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="o">:</span><span class="m">4</span><span class="p">]</span>
+    <span class="n">printSlice</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
     
     <span class="c">// Вернем срез к исходному состоянию</span>
-	<span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="o">:</span><span class="m">6</span><span class="p">]</span>
-	<span class="n">printSlice</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="o">:</span><span class="m">6</span><span class="p">]</span>
+    <span class="n">printSlice</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 
     <span class="c">// Drop its first two values.</span>
     <span class="c">// После этой операции вместимость среза `s` уменьшится.</span>
     <span class="c">// Два первых элемента будут удалены из среза</span>
-	<span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="m">2</span><span class="o">:</span><span class="p">]</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="m">2</span><span class="o">:</span><span class="p">]</span>
     <span class="n">printSlice</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
     
     <span class="c">// Будет удален еще один элемент</span>
@@ -325,7 +325,7 @@ window.onload = wrap_img;
 <span class="p">}</span>
 
 <span class="k">func</span> <span class="n">printSlice</span><span class="p">(</span><span class="n">s</span> <span class="p">[]</span><span class="kt">int</span><span class="p">)</span> <span class="p">{</span>
-	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"len=%d cap=%d %v</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">),</span> <span class="nb">cap</span><span class="p">(</span><span class="n">s</span><span class="p">),</span> <span class="n">s</span><span class="p">)</span>
+    <span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"len=%d cap=%d %v</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">),</span> <span class="nb">cap</span><span class="p">(</span><span class="n">s</span><span class="p">),</span> <span class="n">s</span><span class="p">)</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -354,15 +354,15 @@ len=2 cap=3 [7 11]
 <span class="k">import</span> <span class="s">"fmt"</span>
 
 <span class="k">type</span> <span class="n">Vertex</span> <span class="k">struct</span> <span class="p">{</span>
-	<span class="n">X</span> <span class="kt">int</span>
-	<span class="n">Y</span> <span class="kt">int</span>
+    <span class="n">X</span> <span class="kt">int</span>
+    <span class="n">Y</span> <span class="kt">int</span>
 <span class="p">}</span>
 
 <span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="n">v</span> <span class="o">:=</span> <span class="n">Vertex</span><span class="p">{</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">}</span>
-	<span class="n">p</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="n">v</span>
-	<span class="n">p</span><span class="o">.</span><span class="n">X</span> <span class="o">=</span> <span class="m">1e9</span>
-	<span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="c">// {1000000000 2}</span>
+    <span class="n">v</span> <span class="o">:=</span> <span class="n">Vertex</span><span class="p">{</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">}</span>
+    <span class="n">p</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="n">v</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">X</span> <span class="o">=</span> <span class="m">1e9</span>
+    <span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="c">// {1000000000 2}</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
