@@ -1,3 +1,11 @@
+---
+toc: true
+layout: post
+description: Короткий конспект по языку Golang
+categories: [markdown, Programming]
+title: Golang Notes
+---
+
 # Объявление переменных
 
 ```go
