@@ -44,21 +44,21 @@ var s string = ""
 ```go
 // Традиционный цикл `for`
 for инициализация; условие; последействие {
-	// нуль или несколько инструкций
+    // нуль или несколько инструкций
 }
 ```
 
 ```go
 // Традиционный цикл `while`
 for condition {
-	// ...
+    // ...
 }
 ```
 
 ```go
 // Традиционный бесконечный цикл
 for {
-	// ...
+    // ...
 }
 ```
 
@@ -68,14 +68,14 @@ for {
 
 ```go
 for i, arg := range someSlice {
-	// ...
+    // ...
 }
 ```
 Если мы не нуждаемся в индексе, то его можно заменить на *пустой идентификатор* (blank identifier) с именем `_` (символ подчеркивания). Пустой идентификатор может использоваться вез­де, где синтаксис требует имя переменной, но логике программы он не нужен.
 
 ```go
 for _, arg := range someSlice {
-	// ...
+    // ...
 }
 ```
 
@@ -89,13 +89,13 @@ for _, arg := range someSlice {
 (Попробуйте использовать `v` в последнем операторе `return`.)
 ```go
 func pow(x, n, lim float64) float64 {
-	if v := math.Pow(x, n); v < lim {
-		return v
-	} else {
-		fmt.Printf("%g >= %g\n", v, lim)
-	}
-	// can't use v here, though
-	return lim
+    if v := math.Pow(x, n); v < lim {
+        return v
+    } else {
+        fmt.Printf("%g >= %g\n", v, lim)
+    }
+    // can't use v here, though
+    return lim
 }
 ```
 
@@ -113,17 +113,17 @@ import "fmt"
 func main() {
     // инициализируем внутри переменную `switch`
     // `swichCondition` существует только в рамках данного `switch` ???
-	switch swichCondition := 2; swichCondition {
-	case 1:
-		fmt.Println("Case 1")
+    switch swichCondition := 2; swichCondition {
+    case 1:
+        fmt.Println("Case 1")
     case 2:
         // выполнит принт согласно условию `swichCondition`
         fmt.Println("Case 2")
         // продолжит проверять последующие условия из-за `fallthrough`
         fallthrough
-	default:
-		fmt.Printf("Case default")
-	}
+    default:
+        fmt.Printf("Case default")
+    }
 }
 
 ```
@@ -138,20 +138,20 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"time"
+    "fmt"
+    "time"
 )
 
 func main() {
-	t := time.Now()
-	switch {
-	case t.Hour() < 12:
-		fmt.Println("Good morning!")
-	case t.Hour() < 17:
-		fmt.Println("Good afternoon.")
-	default:
-		fmt.Println("Good evening.")
-	}
+    t := time.Now()
+    switch {
+    case t.Hour() < 12:
+        fmt.Println("Good morning!")
+    case t.Hour() < 17:
+        fmt.Println("Good afternoon.")
+    default:
+        fmt.Println("Good evening.")
+    }
 }
 ```
 
@@ -174,25 +174,25 @@ __*Срезы по верхней границей не меняют вмест�
 import "fmt"
 
 func main() {
-	s := []int{2, 3, 5, 7, 11, 13}
-	printSlice(s)
+    s := []int{2, 3, 5, 7, 11, 13}
+    printSlice(s)
 
-	// Slice the slice to give it zero length.
-	s = s[:0]
-	printSlice(s)
+    // Slice the slice to give it zero length.
+    s = s[:0]
+    printSlice(s)
 
-	// Extend its length.
-	s = s[:4]
-	printSlice(s)
+    // Extend its length.
+    s = s[:4]
+    printSlice(s)
     
     // Вернем срез к исходному состоянию
-	s = s[:6]
-	printSlice(s)
+    s = s[:6]
+    printSlice(s)
 
     // Drop its first two values.
     // После этой операции вместимость среза `s` уменьшится.
     // Два первых элемента будут удалены из среза
-	s = s[2:]
+    s = s[2:]
     printSlice(s)
     
     // Будет удален еще один элемент
@@ -203,7 +203,7 @@ func main() {
 }
 
 func printSlice(s []int) {
-	fmt.Printf("len=%d cap=%d %v\n", len(s), cap(s), s)
+    fmt.Printf("len=%d cap=%d %v\n", len(s), cap(s), s)
 }
 ```
 
@@ -230,14 +230,14 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func main() {
-	v := Vertex{1, 2}
-	p := &v
-	p.X = 1e9
-	fmt.Println(v) // {1000000000 2}
+    v := Vertex{1, 2}
+    p := &v
+    p.X = 1e9
+    fmt.Println(v) // {1000000000 2}
 }
 ```
