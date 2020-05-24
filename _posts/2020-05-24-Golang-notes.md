@@ -6,7 +6,7 @@ categories: [markdown, Programming]
 title: Golang Notes
 ---
 
-![](../images/gopher.jpg)
+![gopher](../images/gopher.jpg)
 
 # Объявление переменных
 
