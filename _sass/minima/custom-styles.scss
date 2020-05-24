@@ -6,6 +6,10 @@
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
+pre {
+    tab-size: 4;
+    -moz-tab-size: 4;
+}
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
