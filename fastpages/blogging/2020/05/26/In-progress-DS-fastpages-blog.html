@@ -113,7 +113,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      7 min read
+      8 min read
     
 </span></p>
 
@@ -146,7 +146,7 @@ window.onload = wrap_img;
 <a href="#Jupyter-Notebooks-&amp;-Fastpages">Jupyter Notebooks &amp; Fastpages </a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#Options-via-FrontMatter">Options via FrontMatter </a></li>
-<li class="toc-entry toc-h3"><a href="#%D0%A1%D0%B2%D0%BE%D1%80%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%81%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0">Сворачивание/скрытие кода </a></li>
+<li class="toc-entry toc-h3"><a href="#%D0%A1%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D0%B8-%D1%81%D0%B2%D0%BE%D1%80%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0">Скрытие и сворачивание кода </a></li>
 <li class="toc-entry toc-h3"><a href="#%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B8-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-Altair">Интерактивные графики с помощью Altair </a></li>
 <li class="toc-entry toc-h3"><a href="#%D0%9E%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86">Отображение таблиц </a></li>
 </ul>
@@ -162,6 +162,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%D1%8F">Примечания </a></li>
 </ul>
 </li>
+<li class="toc-entry toc-h2"><a href="#%D0%A1%D0%BD%D0%BE%D1%81%D0%BA%D0%B8">Сноски </a></li>
 <li class="toc-entry toc-h2"><a href="#Pros-&amp;-Cons">Pros &amp; Cons </a></li>
 <li class="toc-entry toc-h2"><a href="#%D0%A0%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5">Резюме </a></li>
 <li class="toc-entry toc-h2">
@@ -340,8 +341,8 @@ title: Title
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Сворачивание/скрытие-кода">
-<a class="anchor" href="#%D0%A1%D0%B2%D0%BE%D1%80%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%81%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>Сворачивание/скрытие кода<a class="anchor-link" href="#%D0%A1%D0%B2%D0%BE%D1%80%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%81%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0"> </a>
+<h3 id="Скрытие-и-сворачивание-кода">
+<a class="anchor" href="#%D0%A1%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D0%B8-%D1%81%D0%B2%D0%BE%D1%80%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>Скрытие и сворачивание кода<a class="anchor-link" href="#%D0%A1%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D0%B8-%D1%81%D0%B2%D0%BE%D1%80%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0"> </a>
 </h3>
 <p>Приятной функциональностью этого движка для блога является возможность скрывать код и/или результаты его выполнения. Это позволяет не нагружать посты отображением простыни кода или огромного количество принтов (что бывает при обучении нейросетей по эпохам), скрывая эти большие по размеру элементы, но не выкидывая их из поста на совсем.</p>
 
@@ -454,14 +455,6 @@ title: Title
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Чтобы полностью скрыть ячейки (а не просто свернуть их), смотрите <a href="https://github.com/fastai/fastpages#hide-inputoutput-cells">сюда</a>.</p>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -800,7 +793,7 @@ title: Title
 <h3 id="Примечания">
 <a class="anchor" href="#%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%D1%8F" aria-hidden="true"><span class="octicon octicon-link"></span></a>Примечания<a class="anchor-link" href="#%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%D1%8F"> </a>
 </h3>
-<p>Есть возможность отображать различные примечания и сноски.</p>
+<p>Есть возможность отображать примечания различных типов.</p>
 <p><strong>Предупреждение:</strong> <code>&gt; Warning: There will be no second warning!</code>
 </p>
 <div class="flash flash-error">
@@ -832,6 +825,36 @@ title: Title
     <svg class="octicon octicon-info octicon octicon-info" viewbox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg>
     <strong>Note: </strong>A doc link to <a href="https://www.fast.ai/">an example website: fast.ai</a> should also work fine.
 </div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Сноски">
+<a class="anchor" href="#%D0%A1%D0%BD%D0%BE%D1%81%D0%BA%D0%B8" aria-hidden="true"><span class="octicon octicon-link"></span></a>Сноски<a class="anchor-link" href="#%D0%A1%D0%BD%D0%BE%D1%81%D0%BA%D0%B8"> </a>
+</h2>
+<p>В jupyter ноутбуках можно использовать сноски, однако синтаксис отличается от Markdown разметки. Это <a href="https://github.com/fastai/fastpages/blob/master/_fastpages_docs/NOTEBOOK_FOOTNOTES.md">руководство</a> содержит более подробную информацию об этом синтаксисе, который выглядит следующим образом:\</p>
+
+<pre><code>For example, here is a footnote <sup id="fnref-1" class="footnote-ref"><a href="#fn-1">1</a></sup>.
+And another <sup id="fnref-2" class="footnote-ref"><a href="#fn-2">2</a></sup>
+<div class="footnotes"><p id="fn-1">1. This is the footnote.<a href="#fnref-1" class="footnote footnotes">↩</a></p></div>
+<div class="footnotes"><p id="fn-2">2. This is the other footnote. You can even have a [link](www.github.com)!<a href="#fnref-2" class="footnote footnotes">↩</a></p></div></code></pre>
+<p>For example, here is a footnote <sup id="fnref-1" class="footnote-ref"><a href="#fn-1">1</a></sup>.
+And another <sup id="fnref-2" class="footnote-ref"><a href="#fn-2">2</a></sup>
+</p>
+<div class="footnotes"><p id="fn-1">1. This is the footnote.<a href="#fnref-1" class="footnote footnotes">↩</a></p></div>
+<div class="footnotes"><p id="fn-2">2. This is the other footnote. You can even have a <a href="www.github.com">link</a>!<a href="#fnref-2" class="footnote footnotes">↩</a></p></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>ф## Как <code>fastpages</code> конвертирует исходные файлы посты</p>
+<p>Для этого <code>fastpages</code> использует <a href="https://nbdev.fast.ai/index.html">nbdev</a> для преобразования jupyter ноутбуков, word и <code>.md</code> файлов в посты блога. После того, как вы сохраните исходные файлы своих постов в папках <code>/_notebooks</code>, <code>/_word</code> или <code>/_posts</code>, то GitHub Actions c помощью nbdev автоматически преобразует их в конечный вид, в котором посты отображаются на сайте вашего блога.</p>
 
 </div>
 </div>
@@ -893,6 +916,8 @@ title: Title
 </h2>
 <ul>
 <li>
+<a href="https://drscotthawley.github.io/devblog3/">Пример блога</a> на <code>fastpages</code> by Scott H. Hawley;</li>
+<li>
 <a href="https://dyakonov.org/">Анализ малых данных</a> блог Александра Дьяконова;</li>
 <li>Andrej Karpathy <a href="http://karpathy.github.io/">github.io</a>, <a href="https://medium.com/@karpathy">medium</a>;</li>
 <li>
@@ -934,6 +959,10 @@ title: Title
 <a href="https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html">Introducing fastpages</a>;</li>
 <li>
 <a href="https://fastpages.fast.ai/jupyter/2020/02/20/test.html">Туториал</a> с примерами того, что можно сделать в <code>.ipynb</code> посте;</li>
+<li>
+<a href="https://nbdev.fast.ai/index.html">Домашняя страница</a> проекта <code>nbdev</code> + <a href="https://github.com/fastai/nbdev">github</a> + <a href="https://forums.fast.ai/c/fastai-users/nbdev/">форум</a>;</li>
+<li>
+</li>
 </ul>
 
 </div>
