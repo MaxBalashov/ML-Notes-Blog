@@ -193,6 +193,7 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>TODO: про Google Colab</p>
 <p>TODO: убрать из финальной версии</p>
 <h2 id="План-презентации:">
 <a class="anchor" href="#%D0%9F%D0%BB%D0%B0%D0%BD-%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8:" aria-hidden="true"><span class="octicon octicon-link"></span></a>План презентации:<a class="anchor-link" href="#%D0%9F%D0%BB%D0%B0%D0%BD-%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8:"> </a>
@@ -837,10 +838,10 @@ title: Title
 <a class="anchor" href="#%D0%A1%D0%BD%D0%BE%D1%81%D0%BA%D0%B8" aria-hidden="true"><span class="octicon octicon-link"></span></a>Сноски<a class="anchor-link" href="#%D0%A1%D0%BD%D0%BE%D1%81%D0%BA%D0%B8"> </a>
 </h2>
 <p>В jupyter ноутбуках можно использовать сноски, однако синтаксис отличается от Markdown разметки. Это <a href="https://github.com/fastai/fastpages/blob/master/_fastpages_docs/NOTEBOOK_FOOTNOTES.md">руководство</a> содержит более подробную информацию об этом синтаксисе, который выглядит следующим образом:</p>
-<div class="highlight"><pre><span></span>For example, here is a footnote <sup id="fnref-1" class="footnote-ref"><a href="#fn-1">1</a></sup>.
-And another <sup id="fnref-2" class="footnote-ref"><a href="#fn-2">2</a></sup>
-<div class="footnotes"><p id="fn-1">1. <a href="#fnref-1" class="footnote footnotes">↩</a></p></div>
-<div class="footnotes"><p id="fn-2">2. <a href="#fnref-2" class="footnote footnotes">↩</a></p></div>
+<div class="highlight"><pre><span></span>For example, here is a footnote {% fn 1 %}.
+And another {% fn 2 %}
+{{ 'This is the footnote.' | fndetail: 1 }}
+{{ 'This is the other footnote. You can even have a [link](https://fastpages.fast.ai/jupyter/2020/02/20/test.html#Footnotes)' | fndetail: 2 }}
 </pre></div>
 <p>For example, here is a footnote <sup id="fnref-1" class="footnote-ref"><a href="#fn-1">1</a></sup>.
 And another <sup id="fnref-2" class="footnote-ref"><a href="#fn-2">2</a></sup>
