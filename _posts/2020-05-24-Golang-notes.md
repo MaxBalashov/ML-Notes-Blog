@@ -4,10 +4,10 @@ description: "Короткий конспект по языку Golang"
 toc: true
 layout: post
 categories: [markdown, Programming]
-image: images/gopher.jpg
+image: images/gopher.png
 ---
 
-![](images/gopher.jpg)
+![](images/gopher.png)
 
 # Объявление переменных
 
