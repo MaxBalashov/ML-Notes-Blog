@@ -7,7 +7,7 @@ categories: [markdown, Programming]
 image: images/gopher.png
 ---
 
-![](images/gopher.png)
+![](../images/gopher.png)
 
 # Объявление переменных
 
