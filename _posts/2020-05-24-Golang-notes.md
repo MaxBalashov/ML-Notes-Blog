@@ -1,12 +1,13 @@
 ---
+title: "Golang Notes"
+description: "Короткий конспект по языку Golang"
 toc: true
 layout: post
-description: Короткий конспект по языку Golang
 categories: [markdown, Programming]
-title: Golang Notes
+image: images/gopher.jpg
 ---
 
-![]({{ site.baseurl }}/images/gopher.jpg "Gopher - a mascot of Golang")
+![](images/gopher.jpg)
 
 # Объявление переменных
 
