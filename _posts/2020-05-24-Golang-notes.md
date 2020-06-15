@@ -5,7 +5,6 @@ toc: true
 layout: post
 categories: [markdown, Programming]
 image: images/gopher.png
-search_exclude: true
 ---
 
 ![](../images/gopher.png)
