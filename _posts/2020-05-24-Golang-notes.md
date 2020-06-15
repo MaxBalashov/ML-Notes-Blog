@@ -4,11 +4,11 @@ description: "In progress. Короткий конспект по языку Gol
 toc: true
 layout: post
 categories: [markdown, Programming]
-image: images/gopher.png,
+image: images/gopher.png
+search_exclude: true
 ---
 
-![Gopher](../images/gopher.png)
-![Go](images/gopher.png)
+![](../images/gopher.png)
 
 # Объявление переменных
 
