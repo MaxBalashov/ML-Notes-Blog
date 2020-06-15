@@ -1,13 +1,15 @@
 ---
 title: "Golang Notes"
-description: "Короткий конспект по языку Golang"
+description: "In progress. Короткий конспект по языку Golang"
 toc: true
 layout: post
 categories: [markdown, Programming]
-image: images/gopher.png
+image: images/gopher.png,
+hide: true
 ---
 
-![](../images/gopher.png)
+![Gopher](../images/gopher.png)
+![Go](images/gopher.png)
 
 # Объявление переменных
 
