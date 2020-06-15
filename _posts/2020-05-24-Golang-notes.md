@@ -5,7 +5,6 @@ toc: true
 layout: post
 categories: [markdown, Programming]
 image: images/gopher.png,
-hide: true
 ---
 
 ![Gopher](../images/gopher.png)
