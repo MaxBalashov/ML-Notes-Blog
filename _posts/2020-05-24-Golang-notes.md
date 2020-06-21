@@ -5,7 +5,6 @@ toc: true
 layout: post
 categories: [markdown, Programming]
 image: images/gopher.png
-sticky_rank: 1
 ---
 
 ![](../images/gopher.png)
