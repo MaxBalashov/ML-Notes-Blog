@@ -193,7 +193,7 @@ window.onload = wrap_img;
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>В конце февраля 2020 года ребята из <code>fast.ai</code> представили миру <code>fastpages</code> - платформу для ведения блога. Отмечу, что <code>fastpages</code> основан на <code>Jekyll</code>, о котором на Хабре есть множество постов.</p>
 <p>Примером блога на движке <code>fastpages</code> является <a href="https://maxbalashov.github.io/ml-notes/">данный блог</a>.</p>
-<p>Главное отличительная черта и приемущество <code>fastpages</code> состоит в поддерживаемых из коробки форматах постов:</p>
+<p>Главное отличительная черта и преимущество <code>fastpages</code> состоит в поддерживаемых из коробки форматах постов:</p>
 <ul>
 <li>Jupyter ноутбуки (расширение <code>.ipynb</code>);</li>
 <li>Markdown файлы (расширение <code>.md</code>);</li>
@@ -207,7 +207,7 @@ window.onload = wrap_img;
 </ul>
 <p>А все остальное сделает <code>fastpages</code>, как утверждают его авторы.
 <code>fastpages</code> использует Github Pages для хостинга и Github Actions для автоматизации публикации постов.</p>
-<p>Таким образом <code>fastpages</code> является доработкой связки Github Pages + <code>Jekyll</code>, где можно сразу же из Jupyter ноутбука получить опубликованный пост.</p>
+<p>Как я понимаю, <code>fastpages</code> является доработкой связки Github Pages + <code>Jekyll</code>, где можно сразу же из Jupyter ноутбука получить опубликованный пост.</p>
 
 </div>
 </div>
@@ -227,7 +227,7 @@ window.onload = wrap_img;
 <li>Далее автоматически откроется pull request (через ~ 30 секунд), который отвечает за настройку вашего блога, чтобы он мог начать работать.
 <img src="/ml-notes/images/copied_from_nb/../images/ds-blog-fastpages/init-setup.png" alt="">
 </li>
-<li>Вам нужно выполнить иструкции из полученного pull request'a и вы получите свою собственную уже работающую платформу для блога.</li>
+<li>Вам нужно выполнить инструкции из полученного pull request'a и вы получите свою собственную уже работающую платформу для блога.</li>
 </ol>
 <h2 id="Видео-туториал">
 <a class="anchor" href="#%D0%92%D0%B8%D0%B4%D0%B5%D0%BE-%D1%82%D1%83%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB" aria-hidden="true"><span class="octicon octicon-link"></span></a>Видео туториал<a class="anchor-link" href="#%D0%92%D0%B8%D0%B4%D0%B5%D0%BE-%D1%82%D1%83%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB"> </a>
@@ -286,7 +286,7 @@ window.onload = wrap_img;
 <img src="/ml-notes/images/copied_from_nb/../images/ds-blog-fastpages/post_tags.png" alt=""></p>
 </li>
 <li>
-<p><code>show_image</code> - при значении <code>true</code> включается возможность добавления изображений к постам на домашней странице. Выглядит следующим образом (первые 2 поста сопроводжаются изображениями):
+<p><code>show_image</code> - при значении <code>true</code> включается возможность добавления изображений к постам на домашней странице. Выглядит следующим образом (первые 2 поста сопровождаются изображениями):
 <img src="/ml-notes/images/copied_from_nb/../images/ds-blog-fastpages/show_image_true.png" alt=""></p>
 </li>
 </ul>
@@ -311,7 +311,7 @@ window.onload = wrap_img;
 </li>
 <li>Сделайте <a href="https://help.github.com/en/github/managing-files-in-a-repository/adding-a-file-to-a-repository-using-the-command-line">commit и push</a> ваших файлов на удаленный репозиторий GitHub в ветку <code>master</code>.</li>
 <li>
-<p>GitHub автоматически сконвертирует ваши файлы в посты блога. Процесс конвертации займет ~5 минут. Можно перейти на вкладку «Actions» в репозитории на GitHub. Вы увидите три workflow, которые запускаются при каждом <code>push</code> в ветку <code>master</code>:</p>
+<p>GitHub автоматически конвертирует ваши файлы в посты блога. Процесс конвертации займет ~5 минут. Можно перейти на вкладку «Actions» в репозитории на GitHub. Вы увидите три workflow, которые запускаются при каждом <code>push</code> в ветку <code>master</code>:</p>
 <ul>
 <li>Check Configurations - процесс проверки ваших файлов (например, ссылок на изображения), перед обновлением контента в блоге;</li>
 <li>CI - процесс непрерывного деплоя вашего блога;</li>
